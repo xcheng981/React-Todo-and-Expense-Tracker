@@ -1,0 +1,47 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #2993b9, #f8ff6a);
+    color: #fff;
+}
+
+.home-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.home-page {
+    font-size: 32px;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 40px;
+    margin: 1rem;
+}
+
+.home-buttons button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+    transform: scale(1.15);
+}
+
+.logout-button {
+    background-color: #fcbb70;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

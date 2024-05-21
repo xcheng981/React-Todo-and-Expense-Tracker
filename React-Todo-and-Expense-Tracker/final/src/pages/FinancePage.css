@@ -1,0 +1,36 @@
+.finance-page-container {
+    background-image: linear-gradient(to bottom left, #b4ddec, #f8ff6a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.finance-page-header {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.finance-page-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.finance-page-button:hover {
+    background-color: #45a049;
+}
